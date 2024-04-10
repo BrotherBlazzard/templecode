@@ -1,0 +1,11 @@
+{
+  "name": "templecode",
+  "version": "1.0.0",
+  "description": "The Church of Jesus Christ of Latter-day Saints Temple Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
