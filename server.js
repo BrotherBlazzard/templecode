@@ -1,5 +1,10 @@
+// express web server
 const express = require('express');
 const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Hello World. Blazzard is here!');
+});
 
 const port = process.env.PORT || 3000;
 

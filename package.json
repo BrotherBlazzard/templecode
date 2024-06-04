@@ -4,11 +4,16 @@
   "description": "The Church of Jesus Christ of Latter-day Saints Temple Codes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "git-update": "git add . && git commit -m 'update' && git push"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
